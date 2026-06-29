@@ -3,6 +3,7 @@ name = "lang-team"
 description = "Home of the Rust lang team"
 homepage = "http://lang-team.rust-lang.org/"
 bots = ["rustbot", "rfcbot"]
+require-linear-history = true
 
 [access.teams]
 lang = "maintain"
@@ -13,4 +14,3 @@ release = "maintain"
 
 [environments.github-pages]
 branches = ["gh-pages", "main"]
-
